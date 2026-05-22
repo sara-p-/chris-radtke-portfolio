@@ -147,8 +147,8 @@
         "spacing": {
           "padding": {
             "bottom": "4px",
-            "left": "2rem",
-            "right": "2rem",
+            "left": "4rem",
+            "right": "4rem",
             "top": "4px"
           }
         },
@@ -157,6 +157,12 @@
             "background": "var(--wp--preset--color--black)",
             "text": "var(--wp--preset--color--white)"
           }
+        },
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--albert-sans)",
+          "textTransform": "uppercase",
+          "fontWeight": "700",
+          "letterSpacing": "5.6px"
         }
       },
       "link": {
