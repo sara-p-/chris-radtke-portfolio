@@ -1,34 +1,193 @@
 {
-	"$schema": "https://schemas.wp.org/wp/7.0/theme.json",
-	"settings": {
-		"appearanceTools": true,
-		"layout": {
-			"contentSize": "620px",
-			"wideSize": "1000px"
-		},
-		"spacing": {
-			"units": [ "%", "px", "em", "rem", "vh", "vw" ]
-		},
-		"typography": {
-			"fontFamilies": [
-				{
-					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-					"name": "System Font",
-					"slug": "system-font"
-				}
-			]
-		},
-		"useRootPaddingAwareAlignments": true
-	},
-	"templateParts": [
-		{
-			"area": "header",
-			"name": "header"
-		},
-		{
-			"area": "footer",
-			"name": "footer"
-		}
-	],
-	"version": 3
+  "$schema": "https://schemas.wp.org/wp/7.0/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "palette": [
+        {
+          "color": "#5b5b5b",
+          "name": "Black",
+          "slug": "black"
+        },
+        {
+          "color": "#fffefa",
+          "name": "White",
+          "slug": "white"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1180px"
+    },
+    "spacing": {
+      "units": ["%", "px", "em", "rem", "vh", "vw"],
+      "defaultSpacingSizes": false,
+      "spacingSizes": [
+        {
+          "name": "XS",
+          "size": "1rem",
+          "slug": "18"
+        },
+        {
+          "name": "S",
+          "size": "1.5rem",
+          "slug": "28"
+        },
+        {
+          "name": "M",
+          "size": "2.5rem",
+          "slug": "45"
+        },
+        {
+          "name": "L",
+          "size": "3rem",
+          "slug": "54"
+        },
+        {
+          "name": "XL",
+          "size": "4.5rem",
+          "slug": "90"
+        },
+        {
+          "name": "XXL",
+          "size": "12rem",
+          "slug": "220"
+        },
+        {
+          "name": "XXXL",
+          "size": "20rem",
+          "slug": "360"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+          "name": "System Font",
+          "slug": "system-font"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "\"Albert Sans\"",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/fonts/albert-sans/albert-sans-400-normal.woff2"
+              ]
+            },
+            {
+              "fontFamily": "\"Albert Sans\"",
+              "fontStyle": "normal",
+              "fontWeight": "500",
+              "src": [
+                "file:./assets/fonts/albert-sans/albert-sans-500-normal.woff2"
+              ]
+            },
+            {
+              "fontFamily": "\"Albert Sans\"",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": [
+                "file:./assets/fonts/albert-sans/albert-sans-700-normal.woff2"
+              ]
+            },
+            {
+              "fontFamily": "\"Albert Sans\"",
+              "fontStyle": "normal",
+              "fontWeight": "600",
+              "src": [
+                "file:./assets/fonts/albert-sans/albert-sans-600-normal.woff2"
+              ]
+            }
+          ],
+          "fontFamily": "\"Albert Sans\", sans-serif",
+          "name": "Albert Sans",
+          "slug": "albert-sans"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "\"Source Serif 4\"",
+              "fontStyle": "italic",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/fonts/source-serif-4/source-serif-4-400-italic.woff2"
+              ]
+            }
+          ],
+          "fontFamily": "\"Source Serif 4\", serif",
+          "name": "Source Serif 4",
+          "slug": "source-serif-4"
+        }
+      ]
+    },
+    "useRootPaddingAwareAlignments": true
+  },
+  "styles": {
+    "color": {
+      "background": "var(--wp--preset--color--white)",
+      "text": "var(--wp--preset--color--black)"
+    },
+    "elements": {
+      "button": {
+        "color": {
+          "background": "transparent",
+          "text": "var(--wp--preset--color--black)"
+        },
+        "border": {
+          "color": "var(--wp--preset--color--black)",
+          "radius": "30px",
+          "style": "solid",
+          "width": "1px"
+        },
+        "spacing": {
+          "padding": {
+            "bottom": "4px",
+            "left": "2rem",
+            "right": "2rem",
+            "top": "4px"
+          }
+        },
+        ":hover": {
+          "color": {
+            "background": "var(--wp--preset--color--black)",
+            "text": "var(--wp--preset--color--white)"
+          }
+        }
+      },
+      "link": {
+        "color": {
+          "text": "var(--wp--preset--color--black)"
+        }
+      }
+    },
+    "spacing": {
+      "blockGap": "0px",
+      "padding": {
+        "bottom": "0px",
+        "left": "1.5rem",
+        "right": "1.5rem",
+        "top": "0px"
+      }
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--albert-sans)",
+      "fontSize": "18px",
+      "lineHeight": "1.67"
+    }
+  },
+  "templateParts": [
+    {
+      "area": "header",
+      "name": "header"
+    },
+    {
+      "area": "footer",
+      "name": "footer"
+    }
+  ]
 }
