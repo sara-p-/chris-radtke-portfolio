@@ -1,0 +1,12 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+/* Hero Style 1 */
+.hero-style-1 {
+  height: calc(100dvh - 132px);
+}

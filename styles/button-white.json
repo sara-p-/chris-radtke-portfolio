@@ -7,14 +7,14 @@
   "styles": {
     "color": {
       "background": "transparent",
-      "text": "var(--wp--preset--color--white)"
+      "text": "var(--wp--preset--color--off-white)"
     },
     "border": {
       "radius": "30px",
       "style": "solid",
       "width": "1px",
-      "color": "var(--wp--preset--color--white)"
+      "color": "var(--wp--preset--color--off-white)"
     },
-    "css": "&:hover { background-color: var(--wp--preset--color--white); color: var(--wp--preset--color--black); }"
+    "css": "&:hover { background-color: var(--wp--preset--color--off-white); color: var(--wp--preset--color--dark-grey); }"
   }
 }
