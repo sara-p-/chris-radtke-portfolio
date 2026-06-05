@@ -1,12 +1,26 @@
 header {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   z-index: 100;
   width: 100%;
+  background: var(--wp--preset--color--off-white);
 }
 
 /* Hero Style 1 */
 .hero-style-1 {
-  height: calc(100dvh - 132px);
+  height: 100%;
+  min-height: calc(100dvh - 132px);
+  margin-top: 132px;
+  display: flex;
+}
+
+@media screen and (max-width: 1209px) {
+  .hero-style-1__title-container {
+    order: 2;
+  }
+  .hero-style-1__text-container {
+    order: 1;
+    /* padding-bottom: 0 !important; */
+  }
 }

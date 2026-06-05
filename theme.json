@@ -224,6 +224,11 @@
           "textTransform": "uppercase"
         }
       },
+      "p": {
+        "typography": {
+          "fontSize": "clamp(0.89rem, calc(0.815rem + 0.278vw), 1.00rem)"
+        }
+      },
       "link": {
         "color": {
           "text": "var(--wp--preset--color--dark-grey)"
