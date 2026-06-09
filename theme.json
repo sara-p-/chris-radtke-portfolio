@@ -141,6 +141,14 @@
             "text": "var(--wp--preset--color--off-white)"
           }
         },
+        ":focus": {
+          "outline": {
+            "color": "var(--wp--preset--color--primary)",
+            "style": "solid",
+            "width": "2px",
+            "offset": "5px"
+          }
+        },
         "border": {
           "color": "var(--wp--preset--color--dark-grey)",
           "radius": "30px",
@@ -230,6 +238,14 @@
         }
       },
       "link": {
+        ":focus": {
+          "outline": {
+            "color": "var(--wp--preset--color--primary)",
+            "style": "solid",
+            "width": "2px",
+            "offset": "5px"
+          }
+        },
         "color": {
           "text": "var(--wp--preset--color--dark-grey)"
         }
