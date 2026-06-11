@@ -7,6 +7,11 @@ header {
   background: var(--wp--preset--color--off-white);
 }
 
+/* Heros */
+.hero-title-container-margin-bottom {
+  margin-bottom: -8px;
+}
+
 /* Hero Style 1 */
 .hero-style-1 {
   height: 100%;
