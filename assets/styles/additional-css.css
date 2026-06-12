@@ -26,6 +26,11 @@ header {
   display: flex;
 }
 
+/* Hero - Contact */
+.hero-contact {
+  height: 25rem;
+}
+
 @media screen and (max-width: 1209px) {
   .hero-style-1__title-container {
     order: 2;
@@ -33,5 +38,17 @@ header {
   .hero-style-1__text-container {
     order: 1;
     /* padding-bottom: 0 !important; */
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .hero-contact {
+    height: auto;
+  }
+  .hero-contact__title-container {
+    order: 2;
+  }
+  .hero-contact__text-container {
+    order: 1;
   }
 }
