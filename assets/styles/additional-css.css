@@ -3,6 +3,10 @@ html {
   font-size: 18px;
 }
 
+.h1-alternate {
+  font-size: clamp(2.78rem, calc(0.185rem + 9.722vw), 6.67rem);
+}
+
 /* Header */
 header {
   position: sticky;
@@ -51,4 +55,10 @@ header {
   .hero-contact__text-container {
     order: 1;
   }
+}
+
+/* About Page */
+/* Section 1 */
+.about-section-1-left-column {
+  height: 100%;
 }
