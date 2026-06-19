@@ -17,6 +17,21 @@ header {
   background: var(--wp--preset--color--off-white);
 }
 
+@media screen and (min-width: 600px) {
+  .header .nav-menu li:nth-child(1) {
+    padding-right: 45px;
+  }
+
+  .header .nav-menu li:nth-child(2) {
+    padding-right: 45px;
+    border-right: 1px solid var(--wp--preset--color--dark-grey);
+  }
+
+  .header .nav-menu li:nth-child(3) {
+    padding-left: 45px;
+  }
+}
+
 /* Heros */
 .hero-title-container-margin-bottom {
   margin-bottom: -8px;
