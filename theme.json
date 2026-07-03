@@ -138,7 +138,7 @@
       "button": {
         ":focus": {
           "outline": {
-            "color": "var(--wp--preset--color--primary)",
+            "color": "var(--wp--preset--color--dark-grey)",
             "offset": "5px",
             "style": "solid",
             "width": "2px"

@@ -87,3 +87,71 @@ header {
 .about-section-1-left-column {
   height: 100%;
 }
+
+/* Contact Form */
+form#forminator-module-718 {
+  width: 100%;
+  min-width: 500px;
+}
+
+form.forminator-ui#forminator-module-718 .contact-form-input input,
+form.forminator-ui#forminator-module-718 .contact-form-input textarea {
+  background: rgba(255, 254, 250, 0.75);
+  border-radius: 30px;
+  border: none;
+  padding: 0.75rem 1rem;
+}
+
+form.forminator-ui#forminator-module-718 .contact-form-input textarea {
+  min-height: 140px;
+}
+
+form.forminator-ui#forminator-module-718 .forminator-col {
+  margin-bottom: 1rem;
+}
+
+form.forminator-ui#forminator-module-718 label.forminator-label {
+  font-size: 0.75rem;
+  font-family: var(--wp--preset--font-family--albert-sans);
+  font-weight: 600;
+  line-height: 1.67;
+  margin-bottom: 4px;
+}
+
+form.forminator-ui#forminator-module-718.forminator-custom-form:not(
+    .forminator-size--small
+  )[data-grid='open']
+  .forminator-row:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+
+form.forminator-ui#forminator-module-718 .forminator-row:has(#email-1) {
+  margin-bottom: 0;
+}
+
+form.forminator-ui#forminator-module-718 .contact-form-submit {
+  appearance: none;
+  padding: 0.75rem 2rem;
+  font-size: 16px;
+  font-family: var(--wp--preset--font-family--albert-sans);
+  font-weight: 700;
+  letter-spacing: 5.6px;
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid var(--wp--preset--color--off-white);
+  border-radius: 30px;
+  color: var(--wp--preset--color--off-white);
+  cursor: pointer;
+}
+
+form.forminator-ui#forminator-module-718 .contact-form-submit:hover {
+  background: var(--wp--preset--color--off-white);
+  color: var(--wp--preset--color--dark-grey);
+}
+
+@media screen and (max-width: 600px) {
+  form#forminator-module-718 {
+    width: 100%;
+    min-width: initial;
+  }
+}
